@@ -9,17 +9,13 @@ A high-performance browser extension designed to eliminate friction for competit
 * **Formatting Toolbar:** Supports **Bold**, *Italics*, Headers (H1, H2, H3), and Lists.
 * **IDE-Style Code Blocks:** Insert formatted code snippets directly into your notes.
 * **Intelligent Tab Support:** Pressing `Tab` inside the editor inserts proper indentation instead of switching focus.
-
-### 📊 Integrated Navbar Stats
 * **Live Dashboard:** Your **Solved**, **Wrong**, and **Total** counts are now elegantly stacked directly in the CSES navigation bar.
-* **Bulletproof Logic:** Improved detection engine that accurately tracks your progress across the entire problem set.
-* **Persistent Memory:** All progress, stars, and notes are saved to your browser's local storage.
 
 ### ⚡ Frictionless Workflow
 * **Direct Text Submission:** Skip the file explorer. Paste your solution directly into a text area on the submit page; the extension automatically packages it as a `.cpp`, `.py`, or `.java` file.
 * **Custom Sorting:** Instantly reorder problems by the number of successful solvers to find the easiest questions first.
 * **Star Bookmarks:** Mark high-quality problems with a gold star (★) to create a curated list of challenges to revisit.
-* **Optimized Layout:** Icons are intuitively placed (Title ➔ Pen ➔ Solvers ➔ Status ➔ Star) for maximum readability.
+
 
 ## 🛠️ Installation Guide
 
