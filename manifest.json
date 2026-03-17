@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "CSES Enhancer",
+  "version": "1.0",
+  "description": "Add notes, stars, stats, sorting, and direct text submission to CSES.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://cses.fi/problemset/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

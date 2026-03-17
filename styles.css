@@ -1,0 +1,67 @@
+/* --- Problem List Styles --- */
+.cses-panel {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cses-star {
+    cursor: pointer;
+    color: #ccc;
+    font-size: 1.3em;
+    margin: 0 10px;
+    user-select: none;
+    transition: color 0.2s;
+}
+
+.cses-star.starred {
+    color: #ffc107; /* Gold */
+}
+
+.cses-note {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.stat-ac { color: #28a745; font-weight: bold; }
+.stat-wa { color: #dc3545; font-weight: bold; }
+.stat-total { font-weight: bold; }
+
+/* --- Direct Code Submit Styles --- */
+.cses-text-submit {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cses-text-submit h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#cses-code-textarea {
+    width: 100%;
+    padding: 12px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    resize: vertical;
+    white-space: pre;
+}
