@@ -1,37 +1,27 @@
 # CSES Enhancer Pro 🚀
 
-A high-performance browser extension designed to eliminate friction for competitive programmers on the [CSES Problem Set](https://cses.fi/problemset/). This "Pro" version transforms the standard CSES interface into a productivity powerhouse with rich-text notes, integrated stats, and seamless code submission.
+A lightweight browser extension for the [CSES Problem Set](https://cses.fi/problemset/) to add notes, stars, and direct text submission.
 
-## ✨ Key Features
+## ✨ Features
+* **Rich Text Notes:** Click the ✏️ icon to open a dark-mode editor with Bold, Lists, and Code Blocks.
+* **Live Stats:** View Solved, Wrong, and Total counts directly in the top navigation bar.
+* **Direct Submit:** Paste code directly into a text area on the submit page (no file upload needed).
+* **Star Problems:** Bookmark questions with a gold star (★) to save them for later.
+* **Smart Sorting:** Sort problems by the number of solvers or default order.
+* **Theme Memory:** Automatically remembers and applies your Dark/Light mode preference.
 
-### 📝 Rich-Text Notes Modal
-* **WYSIWYG Editor:** Click the ✏️ icon next to any problem to open a beautiful dark-mode modal.
-* **Formatting Toolbar:** Supports **Bold**, *Italics*, Headers (H1, H2, H3), and Lists.
-* **IDE-Style Code Blocks:** Insert formatted code snippets directly into your notes.
-* **Intelligent Tab Support:** Pressing `Tab` inside the editor inserts proper indentation instead of switching focus.
-* **Live Dashboard:** Your **Solved**, **Wrong**, and **Total** counts are now elegantly stacked directly in the CSES navigation bar.
+## 🛠️ Installation
 
-### ⚡ Frictionless Workflow
-* **Direct Text Submission:** Skip the file explorer. Paste your solution directly into a text area on the submit page; the extension automatically packages it as a `.cpp`, `.py`, or `.java` file.
-* **Custom Sorting:** Instantly reorder problems by the number of successful solvers to find the easiest questions first.
-* **Star Bookmarks:** Mark high-quality problems with a gold star (★) to create a curated list of challenges to revisit.
+### Chrome / Brave / Edge
+1. Download this repository as a ZIP and extract it.
+2. Open your browser and go to `chrome://extensions/`.
+3. Enable **Developer mode** (top right).
+4. Click **Load unpacked** and select the extracted folder.
 
-
-## 🛠️ Installation Guide
-
-1.  **Download:** Clone this repository or download the ZIP and extract it.
-2.  **Chrome/Brave/Edge:**
-    * Navigate to `chrome://extensions/`.
-    * Enable **Developer mode** (top right).
-    * Click **Load unpacked** and select the extension folder.
-3.  **Firefox:**
-    * Navigate to `about:debugging#/runtime/this-firefox`.
-    * Click **Load Temporary Add-on...** and select the `manifest.json`.
-
-## 💻 Tech Stack
-* **JavaScript (ES6):** Custom DOM manipulation and event handling.
-* **CSS3:** Dark-mode modal architecture and responsive navbar injection.
-* **Chrome Storage API:** For high-speed local data persistence.
+### Firefox
+1. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
+2. Click **Load Temporary Add-on...**
+3. Select the `manifest.json` file from your folder.
 
 ## 📄 License
-MIT License - Open for use, modification, and contribution by the CP community.
+MIT
